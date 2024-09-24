@@ -6,7 +6,7 @@ CREATE TABLE livros (
 IDLivro INT PRIMARY KEY AUTO_INCREMENT,
 nomeLivro VARCHAR(100) NOT NULL,
 linguaLivro VARCHAR(100) NOT NULL,
-anoPublicacao INT,
+anoPublicacao YEAR,
 IDCategoria INT,
 IDAutor INT,
 IDEditora INT,
