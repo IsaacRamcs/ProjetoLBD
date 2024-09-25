@@ -30,6 +30,7 @@ VALUES
 (28, 'Gabriel García Márquez', 'Colômbia', 1927),
 (29, 'Fyodor Dostoevsky', 'Russia', 1821),
 (30, 'Patrick Rothfuss', 'EUA', 1973);
+
 INSERT INTO editora (IDEditora, nomeEditora, anoFundacao)
 VALUES
 (1, 'Estação Liberdade', 1989),
@@ -55,6 +56,7 @@ VALUES
 (21, 'Francisco de Robles',1962),
 (22, 'The Russian Messenger', 1808),
 (23, 'Círculo de Leitores', 1962);
+
 INSERT INTO livros (nomeLivro, categoriaLivro, anoPublicacao, IDAutor, IDEditora)
 VALUES
 ('Musashi','Romance histórico', 1939, 1, 1),
@@ -107,6 +109,7 @@ VALUES
 ('Meio Rei', 'Fantasia', 2014, 3, 5),
 ('O nome do Vento', 'Fantasia', 2007, 30, 15),
 ('A Tormenta de Espadas', 'Fantasia', 2000, 4, 4);
+
 INSERT INTO info (numPaginas, precoLivro, IDLivro)
 VALUES
 (1832, 300.00, 1),
@@ -159,6 +162,7 @@ VALUES
 (416, 150, 48),
 (662, 50.67, 49),
 (1177, 76.2, 50);
+
 INSERT INTO ratings (notaRating, totalRating, totalReview, IDLivro)
 Values
 (4.47, 21180, 1622, 1),
