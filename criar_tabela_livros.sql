@@ -20,5 +20,6 @@ IDRating INT PRIMARY KEY AUTO_INCREMENT,
 notaRating DECIMAL(3, 2),
 totalRating INT,
 totalReview INT,
+IDLivro INT,
 CONSTRAINT fk_ratings_livros FOREIGN KEY (IDLivro) REFERENCES livros(IDLivro)
 );
