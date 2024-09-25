@@ -29,3 +29,10 @@ CONSTRAINT fk_ratings_livros FOREIGN KEY (IDLivro) REFERENCES livros(IDLivro)
  IDLivro INT,
  CONSTRAINT fk_info_livros FOREIGN KEY (IDLivro) REFERENCES livros(IDLivro)
  );
+
+CREATE TABLE autor (
+IDAutor INT PRIMARY KEY,
+nomeAutor VARCHAR(100),
+origemAutor VARCHAR(100),
+anoNascimento INT
+);
