@@ -2,6 +2,19 @@ CREATE DATABASE livros;
 
 USE livros;
 
+CREATE TABLE autor (
+IDAutor INT PRIMARY KEY,
+nomeAutor VARCHAR(100),
+origemAutor VARCHAR(100),
+anoNascimento INT
+);
+
+CREATE TABLE editora (
+IDEditora INT PRIMARY KEY,
+nomeEditora VARCHAR(100),
+anoFundacao INT
+);
+
 CREATE TABLE livros (
 IDLivro INT PRIMARY KEY AUTO_INCREMENT,
 nomeLivro VARCHAR(100) NOT NULL,
@@ -30,15 +43,4 @@ CONSTRAINT fk_ratings_livros FOREIGN KEY (IDLivro) REFERENCES livros(IDLivro)
  CONSTRAINT fk_info_livros FOREIGN KEY (IDLivro) REFERENCES livros(IDLivro)
  );
 
-CREATE TABLE autor (
-IDAutor INT PRIMARY KEY,
-nomeAutor VARCHAR(100),
-origemAutor VARCHAR(100),
-anoNascimento INT
-);
 
-CREATE TABLE editora (
-IDEditora INT PRIMARY KEY,
-nomeEditora VARCHAR(100),
-anoFundacao INT
-);
