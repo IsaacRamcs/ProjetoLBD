@@ -156,3 +156,29 @@ INSERT INTO info (numPaginas, precoLivro, IDLivro)
  (416, 150, 48),
  (662, 50.67, 49),
  (1177, 76.2, 50);
+
+INSERT INTO editora (IDEditora, nomeEditora, anoFundacao)
+VALUES
+(1, 'Estação Liberdade', 1989),
+(2, 'Chilton Books', 1904),
+(3, 'Gollancz', 1927),
+(4, 'Bantam Books', 1945),
+(5, 'HarperCollins', 1817),
+(6, 'Record', 1940),
+(7, 'Prestwick House', 1980),
+(8, 'Penguin Books', 1935),
+(9, 'Disney Publishing Group', 1991),
+(10, 'Garnier', 1833),
+(11, 'Secker & Warburg', 2005),
+(12, 'Todavia', 2016),
+(13, 'DotEmu', 2007),
+(14, 'Ballantine', 1953),
+(15, 'Penguin-Companhia',2013),
+(16, 'Rocco', 1975),
+(17, 'Bloomsbury', 1986),
+(18, 'Colecionáveis da RBA', 1991),
+(19, 'Melhoramentos', 1993),
+(20, 'Tipografia Nacional', 1808),
+(21, 'Francisco de Robles',1962),
+(22, 'The Russian Messenger', 1808),
+(23, 'Círculo de Leitores', 1962);
