@@ -36,3 +36,9 @@ nomeAutor VARCHAR(100),
 origemAutor VARCHAR(100),
 anoNascimento INT
 );
+
+CREATE TABLE editora (
+IDEditora INT PRIMARY KEY,
+nomeEditora VARCHAR(100),
+anoFundacao INT
+);
