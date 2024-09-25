@@ -11,8 +11,8 @@ IDCategoria INT,
 IDAutor INT,
 IDEditora INT,
 CONSTRAINT fk_livros_livros FOREIGN KEY (IDCategoria) REFERENCES categoria(IDCategoria),
-CONSTRAINT fk_livros_livros FOREIGN KEY (IDAutor) REFERENCES autor(IDAutor),
-CONSTRAINT fk_livros_livros FOREIGN KEY (IDEditora) REFERENCES editora(IDEditora)
+CONSTRAINT fk_livros_autor FOREIGN KEY (IDAutor) REFERENCES autor(IDAutor),
+CONSTRAINT fk_livros_editora FOREIGN KEY (IDEditora) REFERENCES editora(IDEditora)
 );
 
 CREATE TABLE ratings (
